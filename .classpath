@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="script/src/1.Singleton"/>
+	<classpathentry kind="output" path="script/classes/1.Singleton"/>
+</classpath>

@@ -1,4 +1,4 @@
-
+package Design.Singleton;
 
 public class Singleton{
 	
@@ -20,4 +20,3 @@ public class Singleton{
 		Singleton.GetInstance();
 	}
 }
-
