@@ -1,4 +1,4 @@
-package Design.Singleton;
+package Singleton;
 
 
 /*
