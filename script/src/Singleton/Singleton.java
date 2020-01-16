@@ -1,22 +1,17 @@
 package Singleton;
 
-public class Singleton{
+public class Singleton{	
 	
-	private Singleton(){		
-		System.out.println("Sturcture!");
-	}
-	
-	private static Singleton m_instance;
-	
-	public static Singleton GetInstance(){
-		
+	public static Singleton GetInstance(){		
 		if(m_instance == null){
-					m_instance = new Singleton();
+			m_instance = new Singleton();
 		}
 		return m_instance;
 	}
 	
-	public  static void main(String[] args){	
+	public static void main(String[] args){	
 		Singleton.GetInstance();
 	}
+	
+	private static Singleton m_instance;
 }

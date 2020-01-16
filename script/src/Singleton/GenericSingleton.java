@@ -23,10 +23,6 @@ public class GenericSingleton{
 		}	
 	}
 	
-//	protected GenericSingleton(){
-//		System.out.println("create instance");
-//	}
-//	
 	public static void main(String[] args){	
 		GenericSingleton.getInstance(GenericSingleton.class);
 	}

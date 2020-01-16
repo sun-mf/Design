@@ -1,6 +1,2 @@
-/.classpath
-/.project
-/1Singleton/
-/Observer/
-/bin/
-/Singleton/
+/StateMachine/
+/TemplateMethod/
